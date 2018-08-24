@@ -19,5 +19,16 @@ namespace project_1.Controllers
 
             return View();
         }
+
+        public ActionResult homepage()
+        {
+            return View();
+        }
+        public ActionResult facebook()
+        {
+            
+            // Use this for a URL
+            return Redirect("https://www.facebook.com/");
+        }
     }
 }
